@@ -1,0 +1,10 @@
+name: ParkourWarrior
+version: '${version}'
+main: ink.ziip.hammer.parkourwarrior.ParkourWarrior
+api-version: '1.19'
+depend:
+  - ProtocolLib
+commands:
+  pkw:
+    description: Core command.
+    usage: /<command>
